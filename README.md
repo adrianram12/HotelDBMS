@@ -101,3 +101,7 @@ The following summarizes all of the functionalities of our database. The SQL que
 * viewRoomRepairHistory(Hotel esql)
     * This function allows a manager to view all of the room repair requests history for all the hotels that they specifically manage
     * The hotel ID, room number, repair date, and company ID of the maintenance company who did the repair will be displayed
+
+## Output
+
+The executeQueryAndReturnResult() function is used to execute an input query SQL instruction as well as issue the query to the DBMS. The function then returns the results as a list of records. These results can then be printed out to the console in a specific format depending on the function.
